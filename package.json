@@ -1,16 +1,18 @@
 {
   "name": "todo.fahmiidris.dev",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "4"
   },
   "devDependencies": {
+    "@types/node": "^17.0.31",
     "@types/tailwindcss": "^3.0.10",
     "@vitejs/plugin-vue": "^2.3.1",
     "autoprefixer": "^10.4.5",
